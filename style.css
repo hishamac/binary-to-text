@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+body {
+  background-color: #070e0c;
 }
 video {
   width: 100vw;
@@ -20,4 +22,14 @@ video {
   transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
+}
+.heading {
+  font-size: 60px;
+}
+.btn {
+  padding: 0.65rem 0.9rem;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #57cf48;
+  cursor: pointer;
 }
