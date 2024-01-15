@@ -9,10 +9,14 @@
 <body>
     <div class="home-content">
         <h1 class="heading">Binary To Text Convertor</h1>   
-        <a href="/text2bin.html"><button class="btn">Text to Binary</button></a>
-        <a href="/bin2text.html"><button class="btn">Binary to Text</button></a>
+        <a href="./text2bin.html"><button class="btn">Text to Binary</button></a>
+        <a href="./bin2text.html"><button class="btn">Binary to Text</button></a>
     </div>
-    <video src="src/video.mp4" autoplay loop ></video>
+    <video height="256" loop autoplay muted id="vid">
+        <source type="video/mp4" src="./src/video.mp4"></source>
+</video>
 </body>
-
+<script>
+    document.getElementById('vid').play();
+</script>
 </html>
